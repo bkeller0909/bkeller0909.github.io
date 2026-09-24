@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Keller | Grasping Chaos</title>
+  <meta name="description" content="Grasping Chaos — a round-based card battler built as a Niagara College capstone project. Dev story, trailer, and links." />
+  <meta property="og:title" content="Grasping Chaos — Brandon Keller" />
+  <meta property="og:description" content="Strategic round-based card battler. 4th place People's Choice at the LevelUp Showcase." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="brand">BK<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-socials">
+      <a href="https://github.com/bkeller0909" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/brandon--keller" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </nav>
+
+  <header class="header-with-video">
+    <img src="images/grasping_chaos/GraspingChaosCardTitle.png" class="scale-image" alt="Grasping Chaos title art" />
+    <video autoplay muted loop playsinline class="header-video">
+      <source src="video/grasping_chaos/gc_trailer.mp4" type="video/mp4" />
+    </video>
+  </header>
+
+  <section>
+    <p class="kicker reveal">Capstone &middot; 9-student team &middot; Unity (C#)</p>
+    <h2 class="reveal">About the game</h2>
+    <div class="reveal">
+      <p>Grasping Chaos is a strategic, round based action card game where players duel as skeletal mages with each trying to shatter the other's life force.</p>
+      <br />
+      <p>
+        Your life force? Your fingers. Lose a bone, and lose your grip on victory!
+        Outsmart your opponent using spell cards, mind games, and magical rings to emerge victorious in the skeletal standoff.
+      </p>
+    </div>
+    <br />
+    <h2 class="reveal">My role</h2>
+    <ul class="points reveal">
+      <li>Engineered core gameplay systems: controller input, card selection mechanics, and combat targeting</li>
+      <li>Implemented dynamic controller rumble feedback synchronized with spell effects and damage reactions</li>
+      <li>Designed and programmed the card-dealing algorithm with animated card movement</li>
+      <li>Worked in a 4-programmer team within the larger 9-student capstone group, using Git and Agile workflows</li>
+    </ul>
+    <br />
+    <h2 class="reveal">Development Story</h2>
+    <div class="reveal">
+      <p>Grasping Chaos was developed as part of our final year capstone project at Niagara College.
+        The project was split into two major phases.</p>
+      <br />
+      <p>Design Phase (Fall Semester): During the first semester, our nine person team focused on the core vision of
+        the game building the world, designing its magical card mechanics, and establishing the visual and gameplay
+        identity of Grasping Chaos.</p>
+      <br />
+      <p>Development Phase (Winter Semester): The second semester was dedicated to building the game in Unity,
+        implementing gameplay systems, designing and animating the spellcasting sequences, and integrating all the visual,
+        audio, and technical components into a playable game!</p>
+      <br />
+      <p>Our hard work culminated at the LevelUp Showcase, a major student game expo where teams from colleges and
+        universities across Ontario presented their final year games. Grasping Chaos earned 4th place in the People's
+        Choice Award, a testament to the creativity and dedication of our team.</p>
+      <br />
+      <img src="images/irl/team_pic.jpg" class="scale-image" alt="Grasping Chaos team photo" />
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="project-links-box reveal">
+      <h3>Check it out</h3>
+      <div class="hero-cta" style="margin-bottom:0">
+        <a href="https://pack-rats-studio.itch.io/grasping-chaos" target="_blank" rel="noopener" class="btn btn-primary">Play on itch.io</a>
+        <a href="https://github.com/bkeller0909/Card-Game-Capstone" target="_blank" rel="noopener" class="btn btn-ghost">View source on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Brandon Keller</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

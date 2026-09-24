@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Keller | Gameplay Programmer</title>
+  <meta name="description" content="Portfolio of Brandon Keller, gameplay programmer specializing in Unity and C#. Playable student titles, dev stories, and contact." />
+  <meta property="og:title" content="Brandon Keller | Gameplay Programmer" />
+  <meta property="og:description" content="Unity gameplay programmer. Play Grasping Chaos and Flint & Steel, read the dev stories, and get in touch." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="#home" class="brand">BK<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navMenu">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-socials">
+      <a href="https://github.com/bkeller0909" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/brandon--keller" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <p class="eyebrow reveal">Gameplay Programmer</p>
+    <h1 class="reveal">Brandon Keller</h1>
+    <p class="reveal">Unity Developer building responsive, feel-good gameplay systems.</p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn btn-primary">View my work</a>
+      <a href="assets/Brandon_Keller_Resume.docx" class="btn btn-ghost">Download resume</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 class="reveal">About Me</h2>
+    <div class="about-wrap reveal">
+      <img src="images/irl/headshot.jpg" alt="Photo of Brandon Keller" class="headshot" />
+      <div>
+        <p>
+          I'm a Unity game developer passionate about creating immersive gameplay experiences.
+          With a strong foundation in programming and an eye for technical art, I enjoy
+          bridging the gap between code and aesthetics. I thrive in collaborative environments
+          and love bringing unique ideas to life.
+        </p>
+        <p>
+          Recent graduate of Niagara College's Game Development program, currently looking
+          for junior gameplay programmer roles.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="reveal">Projects</h2>
+    <div class="project-card reveal">
+      <div class="image-container">
+        <a href="grasping-chaos.html">
+          <img src="images/grasping_chaos/GraspingChaosCardTitle.png" class="card-image" alt="Grasping Chaos title art" />
+          <div class="overlay-text">Grasping Chaos</div>
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-kicker">Capstone &middot; 9-student team &middot; Unity (C#)</p>
+        <p>Round-based card battler where skeletal mages duel to shatter each other's life force. 4th place, People's Choice, LevelUp Showcase.</p>
+        <div class="card-links">
+          <a href="grasping-chaos.html">Dev story &rarr;</a>
+          <a href="https://pack-rats-studio.itch.io/grasping-chaos" target="_blank" rel="noopener">Play on itch.io &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="image-container">
+        <a href="flint-steel.html">
+          <img src="images/FaS/FaS_Title_v4.png" class="card-image" alt="Flint and Steel title art" />
+          <div class="overlay-text">Flint and Steel</div>
+        </a>
+      </div>
+      <div class="card-body">
+        <p class="card-kicker">Academic project &middot; 5-student team &middot; Unity (C#)</p>
+        <p>2.5D action platformer with boss battles and dynamic terrain.</p>
+        <div class="card-links">
+          <a href="flint-steel.html">Dev story &rarr;</a>
+          <a href="https://allanmathew.itch.io/flint-and-steel" target="_blank" rel="noopener">Play on itch.io &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="reveal">Skills</h2>
+    <div class="skills-grid reveal">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <div class="chips"><span>C#</span><span>C++</span><span>Python</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Engines</h3>
+        <div class="chips"><span>Unity</span><span>Unreal Engine</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Graphics</h3>
+        <div class="chips"><span>DirectX</span></div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools &amp; Workflow</h3>
+        <div class="chips"><span>Git</span><span>Perforce</span><span>Agile</span><span>Trello</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Brandon Keller</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

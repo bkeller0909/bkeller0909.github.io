@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brandon Keller | Flint and Steel</title>
+  <meta name="description" content="Flint & Steel — a 2.5D action platformer built in Unity. Dev story, contributions, and links." />
+  <meta property="og:title" content="Flint & Steel — Brandon Keller" />
+  <meta property="og:description" content="2.5D action platformer with boss battles and dynamic terrain, built in Unity with C#." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="brand">BK<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="navMenu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="nav-socials">
+      <a href="https://github.com/bkeller0909" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/brandon--keller" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <img src="images/FaS/FaS_Title_v4.png" class="scaled-image-fas" alt="Flint and Steel title art" />
+    <p>A platforming and combat game featuring boss battles and dynamic terrain.</p>
+  </header>
+
+  <section>
+    <p class="kicker reveal">Academic project &middot; Unity (C#)</p>
+    <h2 class="reveal">About the game</h2>
+    <div class="reveal">
+      <p>Flint &amp; Steel is a 2.5D action platformer where you play as Scally Wagburn, who — together with his trusted companion Flint — sets out to find the world-renowned gold-plated ruby hook. Along the way Steel joins the adventure, and the crew faces off against Bucky Neerwater.</p>
+      <br />
+      <p>Built by a student team at Niagara College, the game mixes tight platforming with combat encounters, boss battles, and dynamic terrain.</p>
+    </div>
+    <br />
+    <h2 class="reveal">My role</h2>
+    <ul class="points reveal">
+      <li>General programmer &amp; level designer on the team</li>
+      <li>Developed a cross-input system supporting both keyboard/mouse and controller configurations</li>
+      <li>Implemented UI functionality for the main menu and pause systems</li>
+      <li>Designed and integrated audio systems, including custom sound effects</li>
+    </ul>
+    <br />
+    <!--
+      GAMEPLAY CLIP: save your clip as video/fs_trailer.mp4,
+      then uncomment the block below to show it on this page.
+      <video controls playsinline class="scale-image" style="border-radius:10px">
+        <source src="video/fs_trailer.mp4" type="video/mp4" />
+      </video>
+    -->
+	
+	<h2 class="reveal">Development Story</h2>
+    <div class="reveal">
+      <p>Flint & Steel came together during the winter semester of our second year at Niagara College. 
+	  Our team had four months to take a 2.5D action platformer from concept to a playable build.</p>
+      <br />
+      <p>What I'm proudest of is how much of the game we shipped. A full adventure with boss battles, 
+	  dynamic terrain, and a story the team wrote together. Built by our team in a single semester.</p>
+      <br />
+	  <p>The Flint & Steel team — Allan, Matthew, Evan, Brandon.</p>
+      <img src="images/irl/FaS_team_pic.jpg" class="scale-image" alt="Flint & Steel team photo" />
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="project-links-box reveal">
+      <h3>Check it out</h3>
+      <div class="hero-cta" style="margin-bottom:0">
+        <a href="https://allanmathew.itch.io/flint-and-steel" target="_blank" rel="noopener" class="btn btn-primary">Play on itch.io</a>
+        <a href="https://github.com/bkeller0909/FlintAndSteel" target="_blank" rel="noopener" class="btn btn-ghost">View source on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Brandon Keller</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
